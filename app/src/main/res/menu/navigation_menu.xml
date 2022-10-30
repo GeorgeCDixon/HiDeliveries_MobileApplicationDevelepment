@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/Complaints"
+        android:title="Complaints" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out" />
+
+</menu>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/priceOfTheItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6637A2A6"
+    tools:context=".AddFoodItemActivity">
+
+    <EditText
+        android:id="@+id/itemDescription2"
+        android:layout_width="267dp"
+        android:layout_height="71dp"
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Enter Description of the Item"
+        android:inputType="text"
+        android:layerType="hardware"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/buton" />
+
+    <ImageView
+        android:id="@+id/imageHi"
+        android:layout_width="115dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/hi" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="163dp"
+        android:layout_height="33dp"
+        android:text="@string/deliveries"
+        android:textColor="#090000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+
+
+    <EditText
+        android:id="@+id/foodItemName"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/enter_the_name_of_the_item"
+        android:inputType="textPersonName"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+
+
+    <EditText
+        android:id="@+id/itemPrice"
+        android:layout_width="369dp"
+        android:layout_height="68dp"
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/enterPrice"
+        android:inputType="text"
+        android:layerType="hardware"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <EditText
+        android:id="@+id/imageUrl"
+        android:layout_width="369dp"
+        android:layout_height="68dp"
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Enter image Url"
+        android:inputType="text"
+        android:layerType="hardware"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/system_accent3_900"
+        android:text="@string/add_for_delivery"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <TextView
+        android:id="@+id/addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_texr_border"
+        android:text="@string/addNewFoodItem"
+        android:textColor="@color/white"
+        android:textColorHint="@color/design_default_color_error"
+        android:textColorLink="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/confirmButton1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrdersActivity">
+
+    <ImageView
+        android:id="@+id/hi3"
+        android:layout_width="111dp"
+        android:layout_height="104dp"
+        app:layout_constraintEnd_toStartOf="@+id/deliveries3"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hi_1" />
+
+    <TextView
+        android:id="@+id/deliveries3"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Deliveries"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hi3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/note3"
+        android:layout_width="384dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/new_orders"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deliveries3"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/note3">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

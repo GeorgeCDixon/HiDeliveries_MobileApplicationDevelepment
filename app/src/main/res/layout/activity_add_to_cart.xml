@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddToCartActivity">
+
+    <EditText
+        android:id="@+id/comment_cart"
+        android:layout_width="334dp"
+        android:layout_height="71dp"
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@android:color/system_accent1_400"
+        android:ems="10"
+        android:hint="@string/type_your_instruction_here"
+        android:inputType="text"
+        android:layerType="hardware"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="234dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:text="@string/instructions"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:text="@string/rs_650"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <TextView
+        android:id="@+id/price_cart"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:text="@string/rs_700"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <CheckBox
+        android:id="@+id/checkBox_cart"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:text="@string/devilled_chicken001"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <CheckBox
+        android:id="@+id/caeckbox_cartt"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:text="@string/roasted_chicken"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="213dp"
+        android:layout_height="37dp"
+        android:text="@string/large_beef_submarinecart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="169dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        app:srcCompat="@drawable/submarine_3" />
+
+    <SearchView
+        android:id="@+id/searchbar01"
+        android:layout_width="305dp"
+        android:layout_height="54dp"
+
+        android:background="@drawable/edit_texr_border"
+        android:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/buton" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="165dp"
+        android:layout_height="72dp"
+        app:layout_constraintTop_toBottomOf="@id/textView27"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="50dp"
+        app:srcCompat="@drawable/plus_minus"
+        tools:layout_editor_absoluteX="209dp" />
+
+    <Button
+        android:id="@+id/btn_cart"
+        android:layout_width="154dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/add_to_bag"
+        app:layout_constraintTop_toBottomOf="@id/comment_cart"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="100dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/deliveryStaff"
+        android:layout_width="143dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toTopOf="@+id/note1"
+        app:layout_constraintEnd_toStartOf="@+id/Deliveries1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food_delivery" />
+
+    <ImageView
+        android:id="@+id/hi1"
+        android:layout_width="118dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toTopOf="@+id/Deliveries1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/deliveryStaff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hi_1" />
+
+    <TextView
+        android:id="@+id/Deliveries1"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:text="@string/deliveries"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/note1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/deliveryStaff"
+        app:layout_constraintTop_toBottomOf="@+id/hi1" />
+
+    <TextView
+        android:id="@+id/note1"
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:text="@string/we_deliver_to_your_door_step"
+        android:textAlignment="center"
+        android:textColor="#E10E0E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/burger1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Deliveries1" />
+
+    <ImageView
+        android:id="@+id/burger1"
+        android:layout_width="359dp"
+        android:layout_height="442dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note1"
+        app:srcCompat="@drawable/burger" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
